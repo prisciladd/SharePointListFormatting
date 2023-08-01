@@ -12,3 +12,11 @@ Examples of Lists with SharePoint list formatting
 
 ### FAQ List Settings
 <img width="302" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/89b03ca6-cbb7-403c-841f-ba5053447f11">
+
+## List Cards
+<img width="429" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/33db203a-d78b-46a8-9322-16c8e8642149">
+
+### Cards List Settings
+<img width="413" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/682a0841-3437-4452-98cc-51eaf2f2e7ac">
+
+
