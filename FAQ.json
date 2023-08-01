@@ -1,0 +1,116 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themePrimary ms-fontColor-white"
+        }
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-borderColor-neutralQuaternary"
+        },
+        "style": {
+          "display": "flex",
+          "width": "100%",
+          "align-items": "center",
+          "border-width": "1px",
+          "border-style": "solid",
+          "border-color": "[$borderColor]",
+          "background-color": "[$backgroundColor]",
+          "border-radius": "[$borderRadius]",
+          "margin": "5px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$column1]",
+            "style": {
+              "flex-grow": "1",
+              "padding": "0 4px",
+              "width": "50%",
+              "text-align": "left",
+              "border-right": "1px solid transparent",
+              "padding-left": "10px",
+              "padding-right": "10px",
+              "padding-top": "[$paddingTop]",
+              "padding-bottom": "[$paddingBottom]",
+              "font-size": "[$fontSizeCol1]",
+              "color": "[$fontColorCol1]",
+              "font-weight": "[$fontWeightCol1]"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$column2]",
+            "style": {
+              "flex-grow": "2",
+              "padding": "0 4px",
+              "width": "100%",
+              "text-align": "left",
+              "padding-left": "10px",
+              "padding-right": "10px",
+              "padding-top": "[$paddingTop]",
+              "padding-bottom": "[$paddingBottom]",
+              "font-size": "[$fontSizeCol2]",
+              "color": "[$fontColorCol2]",
+              "font-weight": "[$fontWeightCol2]"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$ctaText], 'flex', 'none')",
+              "align-items": "bottom",
+              "justify-content": "bottom",
+              "height": "auto"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "txtContent": "[$ctaText]",
+                "attributes": {
+                  "class": "sp-row-button",
+                  "href": "[$ctaUrl]",
+                  "target": "_blank"
+                },
+                "style": {
+                  "display": "=if([$ctaText], 'flex', 'none')",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "width": "100px",
+                  "max-width": "100px",
+                  "min-width": "100px",
+                  "height": "35px",
+                  "max-height": "35px",
+                  "min-height": "35px",
+                  "margin": "15px",
+                  "background-color": "#E40001",
+                  "text-align": "center",
+                  "font-size": "[$ctaTextSize]",
+                  "color": "white",
+                  "font-weight": "bold",
+                  "border-radius": "3px",
+                  "border": "none",
+                  "text-decoration": "none",
+                  "vertical-align": "center"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
