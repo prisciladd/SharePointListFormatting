@@ -1,0 +1,87 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 350,
+  "width": 300,
+  "hideSelection": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "width": "95%",
+      "height": "95%",
+      "border": "1px solid",
+      "box-shadow": "0 3.2px 7.2px 0",
+      "border-radius": "6px",
+      "display": "flex",
+      "flex-direction": "column",
+      "justify-content": "flex-start",
+      "margin-botom": "10px"
+    },
+    "attributes": {
+      "class": "ms-fontColor-neutralTertiaryAlt"
+    },
+    "children": [
+      {
+        "elmType": "img",
+        "style": {
+          "max-width": "100px",
+          "max-height": "100px",
+          "min-width": "40px",
+          "min-height": "40px",
+          "padding-left": "10px"
+        },
+        "attributes": {
+          "src": "=[$icon.serverUrl] + [$icon.serverRelativeUrl]",
+          "title": "[$icon.fileName]",
+          "class": "sp-card-imagePreview"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$column1]",
+        "style": {
+          "font-size": "23px",
+          "font-weight": "bold",
+          "padding": "5px",
+          "color": "red"
+        },
+        "attributes": {
+          "class": "ms-fontColor-neutralSecondary"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "width": "80%",
+          "background-color": "#888888",
+          "margin-top": "10px",
+          "margin-bottom": "10px",
+          "padding-bottom": "1px"
+        }
+      },
+      {
+        "elmType": "div",
+        "forEach": "item in [$column2]",
+        "style": {
+          "display": "flex",
+          "align-self": "flex-start"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$item.lookupValue]",
+            "style": {
+              "font-size": "17px",
+              "margin-top": "10px",
+              "margin-left": "20px",
+              "text-align": "left",
+              "padding-bottom": "15px"
+            },
+            "attributes": {
+              "class": "ms-fontColor-neutralSecondary"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
