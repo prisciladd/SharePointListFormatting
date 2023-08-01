@@ -23,4 +23,8 @@ Type 2:
 ### Cards List Settings
 <img width="413" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/682a0841-3437-4452-98cc-51eaf2f2e7ac">
 
+### Items List (used in lookup column of Cards List)
+<img width="262" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/807a9c63-fc60-49d4-84b2-4f9645aaf97a">
+
+
 
