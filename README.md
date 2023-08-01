@@ -1,20 +1,23 @@
 # SharePoint List Formatting
 Examples of Lists with SharePoint list formatting
 
-## List Products
+## List Products (view layout = List)
 <img width="444" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/e7632459-cbdc-4bb4-ac7d-698365fbdac4">
 
 ### Products List Settings
 <img width="410" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/a25b58c4-aa2b-41af-b0a0-68fb04b06dd7">
 
-## List FAQ
+## List FAQ (view layout = List)
 <img width="641" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/1580753c-39ae-445b-8ec7-2aabab976773">
 
 ### FAQ List Settings
 <img width="302" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/89b03ca6-cbb7-403c-841f-ba5053447f11">
 
-## List Cards
+## List Cards (view layout = Tiles)
+Type 1:
 <img width="429" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/33db203a-d78b-46a8-9322-16c8e8642149">
+Type 2:
+<img width="350" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/e04c6069-0a1f-4b2e-ab64-8d7da6aa2b9a">
 
 ### Cards List Settings
 <img width="413" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/682a0841-3437-4452-98cc-51eaf2f2e7ac">
