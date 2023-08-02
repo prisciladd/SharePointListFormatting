@@ -19,12 +19,19 @@ Type 1:
 Type 2:
 <img width="363" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/7c1eedf6-dbf0-4c78-9ce2-51836db7cf77">
 
-
 ### Cards List Settings
 <img width="413" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/682a0841-3437-4452-98cc-51eaf2f2e7ac">
 
 ### Items List (used in lookup column of Cards List)
 <img width="262" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/807a9c63-fc60-49d4-84b2-4f9645aaf97a">
+
+## List Latest Announcement (view layout = List)
+<img width="866" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/4deef641-ebad-4da9-9434-31e8bdeb28a0">
+
+### Latest Announcement List Settings
+<img width="429" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/18b97f11-8588-48fb-811d-feacb04172b2">
+
+
 
 
 
