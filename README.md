@@ -16,6 +16,7 @@ Examples of Lists with SharePoint list formatting
 ## List Cards (view layout = Tiles)
 #### Type 1:
 <img width="529" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/33db203a-d78b-46a8-9322-16c8e8642149">
+
 #### Type 2:
 <img width="463" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/7c1eedf6-dbf0-4c78-9ce2-51836db7cf77">
 
@@ -34,6 +35,7 @@ Examples of Lists with SharePoint list formatting
 ## List Clients (view layout = List)
 #### Type 1:
 <img width="629" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/2d4518fb-76f3-4315-b48c-08b600506988">
+
 #### Type 2:
 <img width="563" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/5d1106b0-ae80-409a-af90-55b7d9686060">
 
