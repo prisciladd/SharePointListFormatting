@@ -1,0 +1,144 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "=if(@rowIndex == 0, 'flex', 'none')",
+          "width": "100%",
+          "border-bottom-width": "1px",
+          "border-bottom-style": "solid",
+          "background-color": "[$backgroundColorHeader]",
+          "color": "[$fontColorHeader]",
+          "font-size": "[$fontSizeHeader]",
+          "font-weight": "[$fontWeightHeader]"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "100%",
+              "text-align": "center",
+              "padding": "4px",
+              "border-right": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "p",
+                "txtContent": "[!column1.DisplayName]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "flex-grow": "2",
+              "width": "100%",
+              "text-align": "center",
+              "padding": "4px",
+              "border-right": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "p",
+                "txtContent": "[!column2.DisplayName]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "flex-grow": "3",
+              "width": "100%",
+              "text-align": "center",
+              "padding": "4px"
+            },
+            "children": [
+              {
+                "elmType": "p",
+                "txtContent": "[!column3.DisplayName]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-borderColor-neutralQuaternary"
+        },
+        "style": {
+          "display": "flex",
+          "width": "100%",
+          "border-bottom-width": "1px",
+          "border-bottom-style": "solid",
+          "background-color": "[$backgroundColor]"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$column1]",
+            "style": {
+              "flex-grow": "1",
+              "width": "100%",
+              "text-align": "center",
+              "border-right": "1px solid #ccc",
+              "padding": "4px",
+              "font-weight": "[$fontWeightCol1]",
+              "font-size": "[$fontSizeCol1]",
+              "color": "[$fontColorCol1]",
+              "background-color": "[$backgroundColor]"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$column2]",
+            "style": {
+              "flex-grow": "2",
+              "width": "100%",
+              "text-align": "center",
+              "border-right": "1px solid #ccc",
+              "padding": "4px",
+              "font-weight": "[$fontWeightCol2]",
+              "font-size": "[$fontSizeCol2]",
+              "color": "[$fontColorCol2]",
+              "background-color": "[$backgroundColor]"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$column3]",
+            "style": {
+              "flex-grow": "3",
+              "width": "100%",
+              "text-align": "center",
+              "font-weight": "[$fontWeightCol3]",
+              "font-size": "[$fontSizeCol3]",
+              "color": "[$fontColorCol3]",
+              "padding": "4px",
+              "background-color": "[$backgroundColor]"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
