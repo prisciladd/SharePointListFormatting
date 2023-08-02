@@ -34,10 +34,10 @@ Examples of Lists with SharePoint list formatting
 
 ## List Clients (view layout = List)
 #### Type 1:
-<img width="629" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/2d4518fb-76f3-4315-b48c-08b600506988">
+<img width="829" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/2d4518fb-76f3-4315-b48c-08b600506988">
 
 #### Type 2:
-<img width="563" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/5d1106b0-ae80-409a-af90-55b7d9686060">
+<img width="863" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/5d1106b0-ae80-409a-af90-55b7d9686060">
 
 ### Clients List Settings
 <img width="449" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/423d2d12-d721-4cbf-919b-c6a0a0383a1d">
