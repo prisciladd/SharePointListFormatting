@@ -31,6 +31,13 @@ Type 2:
 ### Latest Announcement List Settings
 <img width="429" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/18b97f11-8588-48fb-811d-feacb04172b2">
 
+## List Clients (view layout = List)
+<img width="866" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/2d4518fb-76f3-4315-b48c-08b600506988">
+
+### Clients List Settings
+<img width="435" alt="image" src="https://github.com/prisciladd/SharePointListFormatting/assets/60947781/17c3f603-5a0e-4cb4-a1fd-870b15e7c5f7">
+
+
 
 
 
